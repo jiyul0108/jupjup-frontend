@@ -79,6 +79,10 @@ export default function LoginPage() {
             계정이 없으신가요?{' '}
             <Link to="/signup" className="font-medium" style={{ color: '#1D9E75' }}>회원가입</Link>
           </p>
+
+          <p className="text-center text-sm text-gray-500 mt-2">
+            <Link to="/" className="font-medium" style={{ color: '#3DDC97' }}>로그인 없이 둘러보기 →</Link>
+          </p>
         </div>
       </div>
     </div>
